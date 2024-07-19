@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<androidx.cardview.widget.CardView
+    android:id="@+id/card"
+    android:layout_width="319dp"
+    android:padding="10dp"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="20dp"
+    app:cardElevation="4dp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView
+        android:layout_marginTop="10dp"
+        android:id="@+id/textOpeningName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        android:hint="Company name : "
+        android:layout_marginStart="15dp"
+        android:textSize="25sp"/>
+
+    <TextView
+        android:id="@+id/textJobPosition"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textOpeningName"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:textColor="@android:color/black"
+        android:hint="Job posotion"
+        android:layout_marginTop="40dp"
+        android:layout_marginStart="15dp"
+        android:textSize="24sp"
+        />
+    <TextView
+        android:id="@+id/num"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:textColor="@android:color/black"
+        android:layout_marginTop="75dp"
+        android:layout_marginStart="15dp"
+        android:hint="Number of"/>
+
+    <TextView
+        android:id="@+id/envi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textOpeningName"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:textColor="@android:color/black"
+        android:hint="envi"
+        android:layout_marginStart="15dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="100dp"
+        />
+</androidx.cardview.widget.CardView>

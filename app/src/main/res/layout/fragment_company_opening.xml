@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@+id/rela"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CompanyOpeningFragment"
+    android:padding="20dp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/blue">
+    <Button
+        android:layout_width="350dp"
+        android:id="@+id/btnopen"
+        android:layout_centerHorizontal="true"
+        android:layout_height="55dp"
+        android:text="Add Openings"
+        android:textColor="@color/white"
+        android:background="#111111"
+        android:textSize="30dp"
+        />
+    <ListView
+        android:id="@+id/ll"
+        android:layout_width="350dp"
+        android:layout_centerHorizontal="true"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/blue"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/btnopen"
+        />
+</RelativeLayout>

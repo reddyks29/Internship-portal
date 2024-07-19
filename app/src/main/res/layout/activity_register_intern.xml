@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/blue">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context=".registerComp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/regIntern"
+                android:textSize="40sp"
+                android:textColor="#000000"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:layout_marginBottom="32dp" />
+
+            <com.google.android.material.textfield.TextInputLayout
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/InternName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/internname"
+                    android:textColorHint="#808080"
+                    android:inputType="text"
+                    android:layout_marginBottom="10dp"/>
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/InternEmail"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/internemail"
+                    android:textColorHint="#808080"
+                    android:inputType="textEmailAddress"
+                    android:layout_marginBottom="10dp"
+                    />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/InternPhone"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/internphone"
+                    android:textColorHint="#808080"
+                    android:inputType="phone"
+                    android:layout_marginBottom="10dp"/>
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/internAddress"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/internadd"
+                    android:textColorHint="#808080"
+                    android:inputType="text"
+                    android:layout_marginBottom="20dp"/>
+
+            </com.google.android.material.textfield.TextInputLayout>
+            <com.google.android.material.textfield.TextInputLayout
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/Interndob"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/interndob"
+                    android:textColorHint="#808080"
+                    android:inputType="date"
+                    android:layout_marginBottom="20dp"/>
+            </com.google.android.material.textfield.TextInputLayout>
+            <TextView
+                android:layout_marginStart="6dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/select_status"
+                android:textSize="15sp"
+                />
+            <Spinner
+                android:id="@+id/Internstatus"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:prompt="@string/select_status"
+                android:entries="@array/country_array"
+                />
+            <com.google.android.material.textfield.TextInputLayout
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/InternInstitution"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/interninst"
+                    android:textColorHint="#808080"
+                    android:inputType="text"
+                    android:layout_marginBottom="20dp"/>
+            </com.google.android.material.textfield.TextInputLayout>
+            <TextView
+                android:layout_marginStart="6dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/grad"
+                android:textSize="15sp"
+                />
+            <Spinner
+                android:id="@+id/internGrad"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:prompt="@string/select_status"
+                android:entries="@array/gradyears"
+                />
+            <TextView
+                android:layout_marginStart="6dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/course"
+                android:textSize="15sp"
+                />
+            <Spinner
+                android:id="@+id/interncourse"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:prompt="@string/select_status"
+                android:entries="@array/courselist"
+                />
+            <com.google.android.material.textfield.TextInputLayout
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/Interndesc"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:hint="@string/interndesc"
+                    android:textColorHint="#808080"
+                    android:inputType="text"
+                    android:layout_marginBottom="10dp"/>
+
+            </com.google.android.material.textfield.TextInputLayout>
+            <com.google.android.material.textfield.TextInputLayout
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/pass1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/pass1"
+                    android:textColorHint="#808080"
+                    android:inputType="text"
+                    android:layout_marginBottom="10dp"/>
+
+            </com.google.android.material.textfield.TextInputLayout>
+            <com.google.android.material.textfield.TextInputLayout
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/pass2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/pass2"
+                    android:textColorHint="#808080"
+                    android:inputType="text"
+                    android:layout_marginBottom="10dp"/>
+
+            </com.google.android.material.textfield.TextInputLayout>
+            <Button
+                android:id="@+id/btnRegister"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/register"
+                android:textSize="30sp"
+                android:textColor="#FFFFFF"
+                android:background="#007BFF"
+                android:layout_marginTop="32dp" />
+
+        </LinearLayout>
+    </RelativeLayout>
+</ScrollView>

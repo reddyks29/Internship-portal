@@ -1,0 +1,101 @@
+<resources>
+    <string name="app_name">Internship</string>
+    <string name="welcome">WELCOME</string>
+    <string name="loginregister">JT Internship Portal</string>
+    <string name="login">LOGIN</string>
+    <string name="register">REGISTER</string>
+    <string name="com">COMPANY</string>
+    <string name="intern">INTERN</string>
+    <string name="pass1">Create Password</string>
+    <string name="pass2">Confirm Password</string>
+
+    <string name="logincomp">Company Login</string>
+    <string name="regComp">Company Registration</string>
+    <string name="compname">Company Name</string>
+    <string name="compemail">Company Email</string>
+    <string name="comppass">Company Password</string>
+    <string name="compphone">Company Phone</string>
+    <string name="compadd">Company Address</string>
+    <string name="compdesc">Company Description</string>
+
+    <string name="loginintern">Intern Login</string>
+    <string name="regIntern">Intern Registration</string>
+    <string name="internname">Name</string>
+    <string name="internemail">Email</string>
+    <string name="internphone">Phone</string>
+    <string name="internadd">Address</string>
+    <string name="interndob">Date of Birth</string>
+    <string name="interndesc">Description</string>
+    <string name="internpass">Password</string>
+    <string name="interninst">Institution studying/completed</string>
+    <string name="grad">Graduated/Graduation year</string>
+    <string name="course">Course </string>
+
+    <string name="select_status">Select status</string>
+    <string-array name="country_array">
+        <item>UG(OnGoing)</item>
+        <item>PG(OnGoing)</item>
+        <item>UG(Graduated)</item>
+        <item>PG(Graduated)</item>
+    </string-array>
+    <string-array name="gradyears">
+        <item>2000</item>
+        <item>2001</item>
+        <item>20002</item>
+        <item>20003</item>
+        <item>2004</item>
+        <item>2005</item>
+        <item>2006</item>
+        <item>2007</item>
+        <item>2008</item>
+        <item>2009</item>
+        <item>2010</item>
+        <item>2011</item>
+        <item>2012</item>
+        <item>2013</item>
+        <item>2014</item>
+        <item>2015</item>
+        <item>2016</item>
+        <item>2017</item>
+        <item>2018</item>
+        <item>2019</item>
+        <item>2020</item>
+        <item>2021</item>
+        <item>2022</item>
+        <item>2023</item>
+        <item>2024</item>
+        <item>2025</item>
+        <item>2026</item>
+        <item>2027</item>
+    </string-array>
+    <string-array name="courselist">
+        <item>BE/B.Tech- Bachelor of Technology.</item>
+        <item> B.Arch- Bachelor of Architecture.</item>
+        <item> BCA- Bachelor of Computer Applications.</item>
+        <item>B.Sc.- Information Technology.</item>
+    </string-array>
+    <string-array name="my_array">
+        <item>Work From Home</item>
+        <item>In Office</item>
+        <item>Hybrid</item>
+    </string-array>
+    <string-array name="my_array1">
+        <item>Part Time</item>
+        <item>Full Time</item>
+        <item>Flexible</item>
+    </string-array>
+    <string-array name="my_array2">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+    </string-array>
+
+    <string name="available">Available</string>
+    <string name="saved">Saved</string>
+    <string name="noti">Notification</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
